@@ -4,7 +4,9 @@ import "./App.css";
 // import { BrowserRouter as Router } from "react-router-dom";
 // import Routes from "./Routes";
 import { FiSearch } from "react-icons/fi";
-import { FaQuoteLeft } from "react-icons/fa";
+import { BsArrowRight } from "react-icons/bs";
+import { RiCheckboxCircleFill } from "react-icons/ri";
+import { BsChevronUp } from "react-icons/bs";
 import { FiSmartphone } from "react-icons/fi";
 import { GoLocation } from "react-icons/go";
 import { BiTime } from "react-icons/bi";
@@ -22,7 +24,7 @@ function App() {
     <div>
       <div
         className="swim-about-head"
-        style={{ backgroundImage: "url('images/bg/heading_08.jpg')" }}
+        style={{ backgroundImage: "url('images/bg/heading_02.jpg')" }}
       >
         <nav className="swim-nav navbar navbar-expand-lg">
           <div className="container-fluid">
@@ -68,14 +70,113 @@ function App() {
         <div className="swim-head-inside">
           <span>SwimAcademy</span>
           <span>·</span>
-          <span>About Us</span>
+          <span>Our Services</span>
         </div>
         <div className="d-flex justify-content-center align-items-center text-white">
-          <h1>About Us</h1>
+          <h1>Our Services</h1>
         </div>
       </div>
-      <div className="about-2nd">
-        <div className="about-2nd-images">
+      <div className="service-2nd">
+        <h6 className="s2-1st">POOL CLASSES</h6>
+        <h2 className="s2-head">Explore Our Services</h2>
+        <p className="s2-desc">
+          Do you want to learn to swim? We teach swimming from the very
+          beginning, where our instructors approach everyone with patience and
+          understanding.
+        </p>
+        <div className="s2-cards">
+          <div className="s2-card">
+            <img src="images/pics/image_46.jpg" alt="" />
+            <div className="overlay"></div>
+            <div className="s2c-body">
+              <h4>Swimming Classes</h4>
+              <BsArrowRight className="s2c-arrow" />
+            </div>
+          </div>
+          <div className="s2-card">
+            <img src="images/pics/image_44.jpg" alt="" />
+            <div className="overlay"></div>
+            <div className="s2c-body">
+              <h4>Individual Lessons</h4>
+              <BsArrowRight className="s2c-arrow" />
+            </div>
+          </div>
+          <div className="s2-card">
+            <img src="images/pics/image_47.jpg" alt="" />
+            <div className="overlay"></div>
+            <div className="s2c-body">
+              <h4>Water Aerobics</h4>
+              <BsArrowRight className="s2c-arrow" />
+            </div>
+          </div>
+          <div className="s2-card">
+            <img src="images/pics/image_45.jpg" alt="" />
+            <div className="overlay"></div>
+            <div className="s2c-body">
+              <h4>Swimming Camps</h4>
+              <BsArrowRight className="s2c-arrow" />
+            </div>
+          </div>
+        </div>
+        <p className="goto">
+          Go to <span>our services</span> page.
+        </p>
+      </div>
+      <div className="services-3rd">
+        <img src="images/pics/image_23.jpg" alt="" className="s3l-img" />
+        <div className="s3-right">
+          <h6 className="s3-sub">VISIBLE PROGRESS</h6>
+          <h2 className="s3-head">
+            We Have a Program That Will Teach Your Child to Swim Within Three to
+            Four Weeks
+          </h2>
+          <p>
+            Teamwork is the cornerstone of Swim Academy. Teachers, managers and
+            parents work together to focus on the progress of each child. Our
+            team always communicates inside and outside the pool to find the
+            most effective approach to making quick progress.
+          </p>
+        </div>
+      </div>
+      <div className="service-4th">
+        <div className="s4-left">
+          <h6 className="s3-sub" style={{ marginTop: 70 }}>
+            WITHOUT FEAR
+          </h6>
+          <h2 className="s3-head">
+            Is Your Child Afraid of Water? We Will Overcome the Fear
+          </h2>
+          <p>
+            We believe your child deserves an amazing swimming experience in the
+            safest and most fun place, here at Swim Academy. Our swimming
+            lessons are designed to make learning fun and thereby tame the fear
+            of contact with water. We provide education for children from 3 to
+            12 years of age, including swimming lessons for infants and adults.
+          </p>
+          <div className="d-flex">
+            <div className="mr-5">
+              <h6>
+                <RiCheckboxCircleFill className="s3-tick" />
+                Modern methods
+              </h6>
+              <h6>
+                <RiCheckboxCircleFill className="s3-tick" />
+                15 years on the market
+              </h6>
+            </div>
+            <div>
+              <h6>
+                <RiCheckboxCircleFill className="s3-tick" />
+                Personal development
+              </h6>
+              <h6>
+                <RiCheckboxCircleFill className="s3-tick" />
+                Modern equipment
+              </h6>
+            </div>
+          </div>
+        </div>
+        <div className="s4r-imgs">
           <img
             src="images/pics/image_49.jpg"
             alt=""
@@ -86,161 +187,123 @@ function App() {
             alt=""
             style={{ marginBottom: 50 }}
           />
-          <div className="about-2nd-card">
-            <img src="images/icons/icon-1.1.png" alt="" />
-            <h5>Swimming classes are held in small groups</h5>
-          </div>
-        </div>
-        <div className="about-2nd-content">
-          <h6 className="c1st">FIND OUT MORE</h6>
-          <h2 className="c2nd">
-            Health, Safety, and Learning Through Having Fun
-          </h2>
-          <p>
-            The Swim Academy school conducts classes for both children and
-            adults in the field of swimming, diving as well as aqua aerobics.
-            Perfectly trained staff in a calm and pleasant atmosphere will make
-            each participant of the course overcome the fear of water and learn
-            various swimming techniques so that they can choose their favorite
-            one.
-          </p>
-          <h5 className="c4th">Why you should trust us?</h5>
-          <div className="c5th">
-            <div className="c6th">
-              <div>
-                <h1>29</h1>
-                <h6>Experienced Trainers</h6>
-              </div>
-              <span className="circle"></span>
-            </div>
-            <div className="c6th">
-              <div>
-                <h1>456</h1>
-                <h6>Competitions Won</h6>
-              </div>
-              <span className="circle"></span>
-            </div>
-            <div className="c6th">
-              <div>
-                <h1>96%</h1>
-                <h6>Recommends Our School</h6>
-              </div>
-              <span className="circle"></span>
-            </div>
-          </div>
         </div>
       </div>
-      <div className="about-3rd">
-        <div className="a3-content">
-          <h6 className="c1st">SAFE AND FUN</h6>
-          <h2 className="a3-2nd">
-            What Makes Swim Academy Stand Out From the Others
-          </h2>
-          <div className="a3-tabs">
-            <h6>Learn while having fun</h6>
-            <h6>Small classes</h6>
-            <h6>Great team</h6>
+      <div className="service-2nd">
+        <h6 className="s2-1st">LEARN MORE</h6>
+        <h2 className="s2-head">Why Choose Us</h2>
+        <div className="s5-cards">
+          <div className="s5-card">
+            <img src="images/icons/icon-2.png" alt="" />
+            <h5>Experienced Staff</h5>
+            <p>
+              We all have one thing in common: a passion for sport and a unique
+              approach to swim learning.
+            </p>
           </div>
-          <p style={{ fontWeight: 600 }}>
-            The priority in our school is taking care of the health and safety
-            of users and learning through fun. That is why parents are so eager
-            to enroll their children in our school.
-          </p>
-          <p>
-            We understand that as a parent, your child's safety is paramount. At
-            Swim Academy, we believe your swimmers deserve to be in the best
-            hands at all times, which is why our instructors go through an
-            extensive recruitment process and a comprehensive training period.
-            In addition, we always try to keep our classes small and provide a
-            maximum number of instructors.
-          </p>
-          <button className="btn btn-outline-reverse">Learn more</button>
+          <div className="s5-card">
+            <img src="images/icons/icon-3.png" alt="" />
+            <h5>Personal Development</h5>
+            <p>
+              We participate in various courses and learn about new trends in
+              swimming teaching of adults and kids.
+            </p>
+          </div>
+          <div className="s5-card">
+            <img src="images/icons/icon-4.png" alt="" />
+            <h5>Modern Methods</h5>
+            <p>
+              We work with pure passion for sport and the desire to promote an
+              active lifestyle.
+            </p>
+          </div>
+          <div className="s5-card">
+            <img src="images/icons/icon-5.png" alt="" />
+            <h5>Unique School</h5>
+            <p>
+              We are an open and friendly swimming school. Each of our little
+              floats is special and unique to us.
+            </p>
+          </div>
         </div>
-        <div className="a3-images">
-          <img src="images/pics/image_31.jpg" alt="" />
-          <img src="images/pics/image_32.jpg" alt="" className="a3-left" />
-          <img src="images/pics/image_30.jpg" alt="" className="a3-right" />
+        <div className="s5-cards">
+          <div className="s5-card">
+            <img src="images/icons/icon-6.png" alt="" />
+            <h5>Heart Put Into Learning</h5>
+            <p>
+              We want to change the approach of children and their parents to
+              learning to swim and to physical activity.
+            </p>
+          </div>
+          <div className="s5-card">
+            <img src="images/icons/icon-7.png" alt="" />
+            <h5>A Mine of Ideas</h5>
+            <p>
+              We organize new types of activities. We train ourselves by
+              participating in various types of courses.
+            </p>
+          </div>
+          <div className="s5-card">
+            <img src="images/icons/icon-8.png" alt="" />
+            <h5>We Know Each Other</h5>
+            <p>
+              We know each of our students not only by name, but most of all we
+              listen to them and try to get to know them.
+            </p>
+          </div>
+          <div className="s5-card">
+            <img src="images/icons/icon-9.png" alt="" />
+            <h5>New Trends Today</h5>
+            <p>
+              We organize free special events such as, for example, St.
+              Nicholas' Day at the swimming pool.
+            </p>
+          </div>
         </div>
-      </div>
-      <div className="about-4th">
-        <h6 className="c1st">TESTIMONIALS</h6>
-        <h2 className="a4-head">Client's Opinion</h2>
-        <div className="a4-cards">
-          <div>
-            <p>
-              <FaQuoteLeft className="quote-left" />
-              My daughter dreaded swimming lessons until we found Swim Academy
-              and their friendly, engaging staff. Now my daughter asks daily if
-              it's swim lesson day. And, she's learning faster than ever! Thank
-              you for your wonderful program.
-            </p>
-            <div className="d-flex align-items-center mt-4">
-              <img
-                src="images/pics/image_52.jpg"
-                alt=""
-                className="a4-review"
-              />
-              <div>
-                <h6 className="font-weight-bold">Alice Hampton</h6>
-                <h6
-                  className="text-muted font-weight-light m-0"
-                  style={{ fontSize: 13 }}
-                >
-                  ATTENDANT
-                </h6>
+        <div className="service-6th">
+          <h6 className="s6-1st">LEARN MORE</h6>
+          <h2 className="s6-head">Frequently Asked Questions</h2>
+          <p className="s6-desc">
+            If you have any questions about the classes and haven't found the
+            answer below please contact us at courses@office.au or
+            learntoswim@office.au
+          </p>
+          <div className="s6-cards">
+            <div>
+              <div className="s6-card">
+                <div className="d-flex justify-content-between align-items-center">
+                  <h4>Can I be in the water with my child during a lesson?</h4>
+                  <span className="s6-up">
+                    <BsChevronUp />
+                  </span>
+                </div>
+                <p>
+                  Yes, however, semi-private lessons are for children that are
+                  water safe and can swim independently. We will make this
+                  decision with your instructor on a case-by-case basis.
+                </p>
+              </div>
+            </div>
+            <div>
+              <div className="s6-card">
+                <div className="d-flex justify-content-between align-items-center">
+                  <h4>Do you offer refunds, credits or transfers?</h4>
+                  <span className="s6-up">
+                    <BsChevronUp />
+                  </span>
+                </div>
+                <p>
+                  If you cancel your plan prior to the end of your billing
+                  period, a pro-rated credit will be added to your account for
+                  any unused time on the plan. You can use this credit to make
+                  future plan purchases.
+                </p>
               </div>
             </div>
           </div>
-          <div>
-            <p>
-              <FaQuoteLeft className="quote-left" />
-              The most kind, courteous, fun-loving staff of any facility we have
-              come across. It takes a special person to work with kids and teach
-              them to swim. There has not been one staff that has not gone above
-              and beyond each lesson.
-            </p>
-            <div className="d-flex align-items-center mt-4">
-              <img
-                src="images/pics/image_50.jpg"
-                alt=""
-                className="a4-review"
-              />
-              <div>
-                <h6 className="font-weight-bold">Laura Smith</h6>
-                <h6
-                  className="text-muted font-weight-light m-0"
-                  style={{ fontSize: 13 }}
-                >
-                  ATTENDANT
-                </h6>
-              </div>
-            </div>
-          </div>
-          <div>
-            <p>
-              <FaQuoteLeft className="quote-left" />
-              Enrolling my 2 sons into Swim Academy may be one of the best
-              decisions I've made for them thus-far. They really set the
-              standard for allowing kids to be comfortable in the water while
-              learning the basics of swimming.
-            </p>
-            <div className="d-flex align-items-center mt-4">
-              <img
-                src="images/pics/image_51.jpg"
-                alt=""
-                className="a4-review"
-              />
-              <div>
-                <h6 className="font-weight-bold">Van Nguyen</h6>
-                <h6
-                  className="text-muted font-weight-light m-0"
-                  style={{ fontSize: 13 }}
-                >
-                  PARENT
-                </h6>
-              </div>
-            </div>
-          </div>
+          <p className="goto">
+            Go to <span>our services</span> page.
+          </p>
         </div>
       </div>
       <div className="swim-footer">
