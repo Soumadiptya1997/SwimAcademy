@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./App.css";
-// import { BrowserRouter as Router } from "react-router-dom";
+import "./AboutUs.css";
+import { Link } from "react-router-dom";
 // import Routes from "./Routes";
 import { FiSearch } from "react-icons/fi";
 import { FaQuoteLeft } from "react-icons/fa";
@@ -12,13 +12,8 @@ import { FaTwitter } from "react-icons/fa";
 import { TiSocialFacebook } from "react-icons/ti";
 import { FaPinterest } from "react-icons/fa";
 
-function App() {
+function AboutUs() {
   return (
-    // <Router>
-    //   <div className="App">
-    //     <Routes />
-    //   </div>
-    // </Router>
     <div>
       <div
         className="swim-about-head"
@@ -44,13 +39,19 @@ function App() {
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <span className="nav-link">Home</span>
+                  <Link to="/">
+                    <span className="nav-link">Home</span>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <span className="nav-link">About Us</span>
+                  <Link to="/about-us">
+                    <span className="nav-link">About Us</span>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <span className="nav-link">Our Services</span>
+                  <Link to="/">
+                    <span className="nav-link">Our Services</span>
+                  </Link>
                 </li>
                 <li className="nav-item">
                   <span className="nav-link">Contact</span>
@@ -347,4 +348,4 @@ function App() {
   );
 }
 
-export default App;
+export default AboutUs;

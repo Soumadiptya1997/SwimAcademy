@@ -5,14 +5,14 @@ import MainView from './layout/main/MainView';
 import MinimalView from './layout/minimal/MinimalView';
 
 // imported Screens
-import Auth from "./views/auth/Auth";
-import Dashboard from "./views/dashboard/Dashboard";
+import OurServices from "./views/OurServices/OurServices";
+import AboutUs from "./views/AboutUs/AboutUs";
 
 const Routes = () => {
   return (
     <Switch>
-      <RouteWithLayout exact path="/" component={Auth} layout={MinimalView} />
-      <RouteWithLayout exact path="/dashboard" component={Dashboard} layout={MainView} />
+      <RouteWithLayout exact path="/" component={OurServices} layout={MinimalView} />
+      <RouteWithLayout exact path="/about-us" component={AboutUs} layout={MinimalView} />
     </Switch>
   );
 };
