@@ -6,7 +6,7 @@
 
 .swim-nav {
   /* height: 100px;
-  z-index: 9999; */
+    z-index: 9999; */
   border-bottom: 0.5px solid #ccc;
   padding: 25px 30px;
 }
@@ -51,109 +51,92 @@
   margin-right: 10px;
 }
 
-.about-2nd {
-  display: flex;
-  justify-content: space-between;
+.contact-2nd {
   background-color: #f5f7f9;
-  padding: 80px 40px 160px;
+  padding: 80px 40px 100px;
 }
 
-.about-2nd-images {
+.c2-cards {
   display: flex;
   justify-content: space-between;
-  min-width: 610px;
-  position: relative;
+  margin-top: 25px;
 }
 
-.about-2nd-images img {
+.c2-card {
   width: 280px;
 }
 
-.about-2nd-card {
-  background-color: #fff;
-  width: 280px;
-  padding: 40px 30px;
-  border-radius: 4px;
-  position: absolute;
-  bottom: -80px;
-  left: 25%;
-  box-shadow: 0px 25px 15px -20px rgb(135 138 170 / 20%);
+.c2-card h5 {
+  margin: 20px 0;
 }
 
-.about-2nd-card img {
-  width: 80px;
-  margin-bottom: 20px;
+.c2-card p {
+  margin-bottom: 3px;
 }
 
-.about-2nd-content {
-  width: 610px;
-  padding-left: 60px;
+.contact-3rd {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.c1st {
+.contact-3rd .c3-left {
+  padding: 0 40px;
+}
+
+.contact-3rd .c3-1st {
   color: #4f2ec9;
   font-weight: 400;
-  font-size: 15px;
 }
 
-.about-2nd-content .c2nd {
-  margin: 18px 20px 50px 0;
+.contact-3rd .c3-head {
+  margin: 15px 0 25px;
 }
 
-.about-2nd-content .c4th {
-  margin: 50px 0;
+.contact-3rd .c3-desc {
+  margin-right: 50px;
 }
 
-.about-2nd-content .c5th {
+.c3-form {
   display: flex;
-  justify-content: space-between;
+  width: fit-content;
+  border: 1px solid #e7e9ed;
+  margin-top: 60px;
 }
 
-.about-2nd-content .c6th {
-  position: relative;
+.c3-form label {
+  margin-left: 20px;
+  margin-bottom: 7px;
+  font-size: 12px;
+  color: #828f99;
 }
 
-.about-2nd-content .c6th div {
-  width: 170px;
-  /* position: absolute; */
-  top: 0;
-  z-index: 1;
+.c3-form input,
+.c3-form textarea {
+  display: block;
+  outline: none;
+  border: none;
+  resize: none;
+  padding: 0 20px 20px;
 }
 
-.about-2nd-content .c5th h1 {
-  color: #4f2ec9;
-  font-size: 50px;
-  margin-bottom: 20px;
+.c3f-left,
+.c3f-right {
+  padding-top: 16px;
 }
 
-/* .about-2nd-content .c5th .circle {
-  background-color: #fff;
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  position: absolute;
-  top: 40px;
-  z-index: 0;
-} */
-
-.about-3rd {
-  padding: 80px 40px;
-  display: flex;
-  justify-content: space-between;
+.c3f-border {
+  border-top: 1px solid #e7e9ed;
+  border-bottom: 1px solid #e7e9ed;
 }
 
-.a3-content {
-  width: 610px;
+.c3f-right {
+  border-left: 1px solid #e7e9ed;
 }
 
-.a3-2nd {
-  margin: 18px 120px 50px 0;
-}
-
-.a3-tabs {
-  display: flex;
-  justify-content: space-between;
-  margin: 18px 180px 50px 0;
+.contact-3rd .c3-right {
+  width: 880px;
+  height: 820px;
 }
 
 .btn-outline-reverse {
@@ -172,58 +155,9 @@
   border-color: #4f2ec9;
 }
 
-.a3-images {
-  position: relative;
-}
-
-.a3-left {
-  width: 280px;
-  position: absolute;
-  left: -70px;
-  bottom: 60px;
-}
-
-.a3-right {
-  width: 280px;
-  position: absolute;
-  right: 0;
-  bottom: -50px;
-}
-
-.about-4th {
-  background-color: #f5f7f9;
-  padding: 80px 40px 100px;
-}
-
-.about-4th .c1st,
-.about-4th .a4-head {
-  text-align: center;
-}
-
-.a4-cards {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 80px;
-}
-
-.a4-cards p {
-  padding: 40px 45px 50px;
-  background-color: #fff;
-  width: 390px;
-  border-bottom-right-radius: 60px;
-}
-
-.a4-cards p .quote-left {
-  display: block;
-  font-size: 20px;
-  color: #4f2ec9;
-  margin-bottom: 10px;
-}
-
-.a4-review {
-  width: 60px;
-  border-radius: 50%;
-  margin-right: 20px;
+.contact-3rd .c3-right iframe {
+  width: 100%;
+  height: 100%;
 }
 
 .swim-footer {
@@ -245,6 +179,22 @@
 .footer-top h2 {
   color: #fff;
   margin: 10px 360px;
+}
+
+.btn-outline-reverse {
+  color: #fff;
+  background-color: #4f2ec9;
+  border: 2px solid #4f2ec9;
+  border-radius: 999px;
+  padding: 13px 40px;
+  font-weight: 500;
+  margin-top: 35px;
+}
+
+.btn-outline-reverse:hover {
+  color: #4f2ec9;
+  background-color: transparent;
+  border-color: #4f2ec9;
 }
 
 .swim-footer .btn-outline-reverse {

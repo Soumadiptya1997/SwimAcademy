@@ -49,12 +49,14 @@ function AboutUs() {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="/">
+                  <Link to="/our-services">
                     <span className="nav-link">Our Services</span>
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <span className="nav-link">Contact</span>
+                  <Link to="/contact">
+                    <span className="nav-link">Contact</span>
+                  </Link>
                 </li>
               </ul>
               <div className="d-flex">
