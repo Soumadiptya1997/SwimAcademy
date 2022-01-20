@@ -160,6 +160,161 @@
   height: 100%;
 }
 
+.contact-4th {
+  background-color: #f5f7f9;
+  padding: 80px 40px 100px;
+}
+
+.c4-1st {
+  color: #4f2ec9;
+}
+
+.c4-head {
+  margin: 20px 0 30px;
+}
+
+.c4-desc {
+  margin: 0 330px;
+}
+
+.contact-4th .c4-1st,
+.contact-4th .c4-head,
+.contact-4th .c4-desc {
+  text-align: center;
+}
+
+.c4-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.c4-card {
+  width: 390px;
+  margin: 0 25px;
+}
+
+.c4-top {
+  position: relative;
+}
+
+.c4-card .price {
+  top: 0px;
+  right: 0px;
+  width: 90px;
+  height: 90px;
+  display: flex;
+  position: absolute;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 81px;
+  background-color: #4f2ec9;
+  color: #ffffff;
+}
+
+.c4-card .price h5 {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 0;
+}
+
+.c4-card .price p {
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  opacity: 0.5;
+  padding-left: 10px;
+}
+
+.c4-card .c4c-img img {
+  width: 100%;
+  border-radius: 4px 4px 0 0;
+  transition: opacity 0.2s ease 0s;
+}
+
+.c4-card .c4c-img:hover img {
+  opacity: 0.8;
+}
+
+.c4-card .c4c-body {
+  padding: 30px;
+  border-radius: 0px 0px 4px 4px;
+  background-color: #fff;
+}
+
+.c4-card .c4cb-1st svg {
+  font-size: 12px;
+  position: relative;
+  top: -2px;
+  margin-right: 10px;
+  color: #4f2ec9;
+}
+
+.c4-card .c4cb-1st span {
+  font-weight: 500;
+}
+
+.c4-card .c4c-body h4 {
+  margin-bottom: 20px;
+}
+
+.c4-card .c4c-body .c4cb-div {
+  margin: 30px 0 20px;
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  border-color: #e7e9ed;
+}
+
+.c4-card .c4c-body .c4cb-div div {
+  height: 2px;
+  margin-bottom: -1px;
+  background-color: #52e2bb;
+}
+
+.c4cb-foot svg {
+  font-size: 14px;
+  position: relative;
+  top: -2px;
+  margin-right: 10px;
+  color: #4f2ec9;
+}
+
+.c4cb-foot span {
+  font-weight: 500;
+}
+
+.c4-arrows {
+  width: fit-content;
+  margin: 60px auto;
+}
+
+.c4-arrows .c4-arr {
+  padding: 6px 12px 12px;
+  /* color: #17191b; */
+  background-color: #fff;
+  border-radius: 50%;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.c4-arrows .c4-arr:hover {
+  background-color: #4f2ec9;
+  color: #fff;
+}
+
+.c4-last {
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.c4-last span {
+  color: #4f2ec9;
+  border-bottom: 1px solid #4f2ec9;
+}
+
 .swim-footer {
   background-color: #17191b;
   padding: 80px 40px;

@@ -4,6 +4,10 @@ import "./Contact.css";
 import { Link } from "react-router-dom";
 // import Routes from "./Routes";
 import { FiSearch } from "react-icons/fi";
+import { FaFolder } from "react-icons/fa";
+import { MdPeople } from "react-icons/md";
+import { FaFolderOpen } from "react-icons/fa";
+import { BsArrowLeft, BsArrowRight } from "react-icons/bs";
 import { FiSmartphone } from "react-icons/fi";
 import { GoLocation } from "react-icons/go";
 import { BiTime } from "react-icons/bi";
@@ -151,6 +155,137 @@ function Contact() {
             title="Weequahic Park"
           ></iframe>
         </div>
+      </div>
+      <div className="contact-4th">
+        <h6 className="c4-1st">WE ROCK.</h6>
+        <h2 className="c4-head">Explore Classes</h2>
+        <p className="c4-desc">
+          Whether you want to introduce your infant to the water or are an adult
+          looking to learn to swim, we offer a variety of swimming classes for
+          all skill levels.
+        </p>
+        <div className="c4-cards">
+          <div className="c4-card">
+            <div className="c4-top">
+              <div className="price">
+                <h5>$300.00</h5>
+                <p>
+                  <small>/ person</small>
+                </p>
+              </div>
+              <div className="c4c-img">
+                <img src="images/pics/image_33.jpg" alt="" />
+              </div>
+            </div>
+            <div className="c4c-body">
+              <p className="c4cb-1st">
+                <FaFolder /> <span>Swimming Course</span>
+              </p>
+              <h4>Little Frogs: 18-36 Months</h4>
+              <p>
+                Classes conducted with adults in the water. The little ones
+                start their adventure in the water with the use of games and
+                activities.
+              </p>
+              <div className="c4cb-div">
+                <div style={{ width: "42%" }}></div>
+              </div>
+              <div className="d-flex justify-content-between">
+                <div className="c4cb-foot">
+                  <MdPeople />
+                  <span>5 enrolled</span>
+                </div>
+                <div className="c4cb-foot">
+                  <FaFolderOpen />
+                  <span>32x lesson</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="c4-card">
+            <div className="c4-top">
+              <div className="price">
+                <h5>$350.00</h5>
+                <p>
+                  <small>/ person</small>
+                </p>
+              </div>
+              <div className="c4c-img">
+                <img src="images/pics/image_32.jpg" alt="" />
+              </div>
+            </div>
+            <div className="c4c-body">
+              <p className="c4cb-1st">
+                <FaFolder /> <span>Swimming Course</span>
+              </p>
+              <h4>Sea Turtles: 3-4 Years</h4>
+              <p>
+                Classes developing awareness of the aquatic environment. Without
+                the parent's presence in the water.
+              </p>
+              <div className="c4cb-div">
+                <div style={{ width: "17%" }}></div>
+              </div>
+              <div className="d-flex justify-content-between">
+                <div className="c4cb-foot">
+                  <MdPeople />
+                  <span>2 enrolled</span>
+                </div>
+                <div className="c4cb-foot">
+                  <FaFolderOpen />
+                  <span>28x lesson</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="c4-card">
+            <div className="c4-top">
+              <div className="price">
+                <h5>$490.00</h5>
+                <p>
+                  <small>/ person</small>
+                </p>
+              </div>
+              <div className="c4c-img">
+                <img src="images/pics/image_34.jpg" alt="" />
+              </div>
+            </div>
+            <div className="c4c-body">
+              <p className="c4cb-1st">
+                <FaFolder /> <span>Swimming Course</span>
+              </p>
+              <h4>Sharks: 4-12 Years</h4>
+              <p>
+                Learning beginner strokes on their backs and fronts. Classes
+                without the participation of adults in the water.
+              </p>
+              <div className="c4cb-div">
+                <div style={{ width: "80%" }}></div>
+              </div>
+              <div className="d-flex justify-content-between">
+                <div className="c4cb-foot">
+                  <MdPeople />
+                  <span>4 enrolled</span>
+                </div>
+                <div className="c4cb-foot">
+                  <FaFolderOpen />
+                  <span>28x lesson</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="c4-arrows">
+          <span className="c4-arr">
+            <BsArrowLeft />
+          </span>
+          <span className="c4-arr">
+            <BsArrowRight />
+          </span>
+        </div>
+        <p className="c4-last">
+          See more class. Go to the <span>full list</span>
+        </p>
       </div>
       <div className="swim-footer">
         <div className="footer-top">
