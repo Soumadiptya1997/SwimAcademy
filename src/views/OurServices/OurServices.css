@@ -76,13 +76,16 @@
 
 .s2-cards {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin-top: 50px;
 }
 
 .s2-card {
   position: relative;
   transition: all 300ms ease;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 10px;
 }
 
 .s2-card:hover {
@@ -141,7 +144,7 @@
 }
 
 .s3l-img {
-  width: 550px;
+  width: 40%;
 }
 
 .s3-sub {
