@@ -12,7 +12,7 @@ import { RiCheckboxCircleFill } from "react-icons/ri";
 import { BsArrowLeft, BsArrowRight } from "react-icons/bs";
 import { FaQuoteLeft } from "react-icons/fa";
 import { MdModeComment } from "react-icons/md";
-import { BsFillPinAngleFill } from "react-icons/bs";
+// import { BsFillPinAngleFill } from "react-icons/bs";
 import { FiSmartphone } from "react-icons/fi";
 import { GoLocation } from "react-icons/go";
 import { BiTime } from "react-icons/bi";
@@ -627,7 +627,7 @@ function Contact() {
                 <img src="images/pics/image_21.jpg" alt="" />
               </div>
               <span className="h7-pin">
-                <BsFillPinAngleFill />
+                {/* <BsFillPinAngleFill /> */}
               </span>
             </div>
             <div className="c4c-body">
