@@ -4,6 +4,12 @@
   min-height: 550px;
 }
 
+@media only screen and (max-width: 768px) {
+  .swim-about-head {
+    min-height: 400px;
+  }
+}
+
 .home-swim-nav {
   padding: 25px 30px;
 }
@@ -190,6 +196,12 @@
   color: #b8b8bf;
 }
 
+@media only screen and (max-width: 768px) {
+  .swim-footer {
+    padding: 80px 20px;
+  }
+}
+
 .footer-top {
   text-align: center;
   padding-bottom: 100px;
@@ -203,6 +215,12 @@
 .footer-top h2 {
   color: #fff;
   margin: 10px 360px;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-top h2 {
+    margin: 10px 0px;
+  }
 }
 
 .btn-outline-reverse {
@@ -230,6 +248,15 @@
   justify-content: space-between;
   padding: 100px 0;
   border-bottom: 0.1px solid #aaa;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-middle {
+    flex-direction: column;
+  }
+  .footer-middle > div {
+    margin-top: 55px;
+  }
 }
 
 .fm-desc {
@@ -264,6 +291,15 @@
   justify-content: space-between;
   align-items: center;
   padding: 50px 0 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-end {
+    flex-direction: column;
+  }
+  .footer-end > div {
+    margin-top: 35px;
+  }
 }
 
 .social-icons {

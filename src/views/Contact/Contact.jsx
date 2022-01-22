@@ -202,7 +202,7 @@ function Contact() {
               </div>
             </div>
           </div>
-          <div className="c4-card">
+          <div className="c4-card d-none d-md-block">
             <div className="c4-top">
               <div className="price">
                 <h5>$350.00</h5>
@@ -238,7 +238,7 @@ function Contact() {
               </div>
             </div>
           </div>
-          <div className="c4-card">
+          <div className="c4-card d-none d-md-block">
             <div className="c4-top">
               <div className="price">
                 <h5>$490.00</h5>
