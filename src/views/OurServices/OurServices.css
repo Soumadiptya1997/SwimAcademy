@@ -76,7 +76,7 @@
 
 .s2-cards {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   margin-top: 50px;
 }
 

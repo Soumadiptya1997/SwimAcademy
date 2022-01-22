@@ -146,6 +146,10 @@
   width: 610px;
 }
 
+.a3-content p {
+  margin-top: 30px;
+}
+
 .a3-2nd {
   margin: 18px 120px 50px 0;
 }
