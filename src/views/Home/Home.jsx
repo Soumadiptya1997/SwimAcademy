@@ -10,6 +10,9 @@ import { FaFolderOpen } from "react-icons/fa";
 import { BsEnvelope } from "react-icons/bs";
 import { RiCheckboxCircleFill } from "react-icons/ri";
 import { BsArrowLeft, BsArrowRight } from "react-icons/bs";
+import { FaQuoteLeft } from "react-icons/fa";
+import { MdModeComment } from "react-icons/md";
+import { BsFillPinAngleFill } from "react-icons/bs";
 import { FiSmartphone } from "react-icons/fi";
 import { GoLocation } from "react-icons/go";
 import { BiTime } from "react-icons/bi";
@@ -99,7 +102,7 @@ function Contact() {
                 <div className="price">
                   <h5>$300.00</h5>
                   <p>
-                    <small>/ person</small>
+                    <small></small>
                   </p>
                 </div>
                 <div className="c4c-img">
@@ -323,6 +326,401 @@ function Contact() {
           </p>
           <button className="btn btn-outline-reverse">Learn more</button>
         </div>
+        <div className="h4-cards">
+          <div>
+            <div className="s5-card">
+              <img src="images/icons/icon-14.png" alt="" />
+              <h5>Experienced Staff</h5>
+              <p>
+                We all have one thing in common: a passion for sport and unique
+                approach.
+              </p>
+            </div>
+            <div className="s5-card my-5">
+              <img src="images/icons/icon-15.png" alt="" />
+              <h5>Modern methods</h5>
+              <p>
+                We work with pure passion for sport and the desire to promote an
+                active lifestyle.
+              </p>
+            </div>
+          </div>
+          <div className="s5-card ml-5">
+            <img src="images/icons/icon-16.png" alt="" />
+            <h5>Personal Development</h5>
+            <p>
+              We participate in various courses and learn about new trends in
+              swimming teaching.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="contact-4th">
+        <h6 className="c4-1st">WE ROCK.</h6>
+        <h2 className="c4-head">Explore Classes</h2>
+        <p className="c4-desc">
+          Whether you want to introduce your infant to the water or are an adult
+          looking to learn to swim, we offer a variety of swimming classes for
+          all skill levels.
+        </p>
+        <div className="c4-cards">
+          <div className="c4-card">
+            <div className="c4-top">
+              <div className="price">
+                <h5>$300.00</h5>
+                <p>
+                  <small>/ person</small>
+                </p>
+              </div>
+              <div className="c4c-img">
+                <img src="images/pics/image_33.jpg" alt="" />
+              </div>
+            </div>
+            <div className="c4c-body">
+              <p className="c4cb-1st">
+                <FaFolder /> <span>Swimming Course</span>
+              </p>
+              <h4>Little Frogs: 18-36 Months</h4>
+              <p>
+                Classes conducted with adults in the water. The little ones
+                start their adventure in the water with the use of games and
+                activities.
+              </p>
+              <div className="c4cb-div">
+                <div style={{ width: "42%" }}></div>
+              </div>
+              <div className="d-flex justify-content-between">
+                <div className="c4cb-foot">
+                  <MdPeople />
+                  <span>5 enrolled</span>
+                </div>
+                <div className="c4cb-foot">
+                  <FaFolderOpen />
+                  <span>32x lesson</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="c4-card">
+            <div className="c4-top">
+              <div className="price">
+                <h5>$350.00</h5>
+                <p>
+                  <small>/ person</small>
+                </p>
+              </div>
+              <div className="c4c-img">
+                <img src="images/pics/image_32.jpg" alt="" />
+              </div>
+            </div>
+            <div className="c4c-body">
+              <p className="c4cb-1st">
+                <FaFolder /> <span>Swimming Course</span>
+              </p>
+              <h4>Sea Turtles: 3-4 Years</h4>
+              <p>
+                Classes developing awareness of the aquatic environment. Without
+                the parent's presence in the water.
+              </p>
+              <div className="c4cb-div">
+                <div style={{ width: "17%" }}></div>
+              </div>
+              <div className="d-flex justify-content-between">
+                <div className="c4cb-foot">
+                  <MdPeople />
+                  <span>2 enrolled</span>
+                </div>
+                <div className="c4cb-foot">
+                  <FaFolderOpen />
+                  <span>28x lesson</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="c4-card">
+            <div className="c4-top">
+              <div className="price">
+                <h5>$490.00</h5>
+                <p>
+                  <small>/ person</small>
+                </p>
+              </div>
+              <div className="c4c-img">
+                <img src="images/pics/image_34.jpg" alt="" />
+              </div>
+            </div>
+            <div className="c4c-body">
+              <p className="c4cb-1st">
+                <FaFolder /> <span>Swimming Course</span>
+              </p>
+              <h4>Sharks: 4-12 Years</h4>
+              <p>
+                Learning beginner strokes on their backs and fronts. Classes
+                without the participation of adults in the water.
+              </p>
+              <div className="c4cb-div">
+                <div style={{ width: "80%" }}></div>
+              </div>
+              <div className="d-flex justify-content-between">
+                <div className="c4cb-foot">
+                  <MdPeople />
+                  <span>4 enrolled</span>
+                </div>
+                <div className="c4cb-foot">
+                  <FaFolderOpen />
+                  <span>28x lesson</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="c4-arrows">
+          <span className="c4-arr">
+            <BsArrowLeft />
+          </span>
+          <span className="c4-arr">
+            <BsArrowRight />
+          </span>
+        </div>
+        <p className="c4-last">
+          See more class. Go to the <span>full list</span>
+        </p>
+      </div>
+      <div className="home-5th">
+        <div className="a3-content">
+          <h6 className="c1st">OUR PHILOSOPHY</h6>
+          <h2 className="a3-2nd">
+            Passionate Character Building in One Stroke at a Time
+          </h2>
+          <p style={{ fontWeight: 600 }}>
+            Every square inch of our unique facility is designed to improve
+            learning, fun and safety for every child and parent who joins the
+            Swim Academy family.
+          </p>
+          <p>
+            You feel it the moment you walk in. Something else. It's more than
+            just vivid colors that inspire kids. More than a curriculum designed
+            not only to teach children to swim, but also to build their
+            character through guided play. More than a thrill-free swimming
+            pool. There is more. Something unexpected. Something that drives
+            Swim Academy school beyond the usual.
+          </p>
+          <button className="btn btn-outline-reverse">Learn more</button>
+        </div>
+        <div className="h5-right">
+          <img src="images/pics/image_24.jpg" className="h5r-img" alt="" />
+          <div className="h5-cards a4-cards">
+            <div>
+              <p>
+                <FaQuoteLeft className="quote-left" />
+                My little daughter goes to this swim school and it's absolutely
+                amazing! The swim instructors are great and it's a great
+                environment for kids. The front desk is also super helpful.
+              </p>
+              <div className="d-flex align-items-center mt-4">
+                <img
+                  src="images/pics/image_01.jpg"
+                  alt=""
+                  className="a4-review"
+                />
+                <div>
+                  <h6 className="font-weight-bold">Monica Deborah</h6>
+                  <h6
+                    className="text-muted font-weight-light m-0"
+                    style={{ fontSize: 13 }}
+                  >
+                    PARENT
+                  </h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="h5-arrows c4-arrows">
+            <span className="c4-arr">
+              <BsArrowLeft />
+            </span>
+            <span className="c4-arr">
+              <BsArrowRight />
+            </span>
+          </div>
+        </div>
+      </div>
+      <div className="home-6th">
+        <h6 className="h6-1st">PASSION & SKILLS</h6>
+        <h2 className="h6-head">Meet the Team</h2>
+        <p className="h6-desc">
+          Our school currently has over a dozen qualified swimming instructors.
+          We all have one thing in common: a passion for sport and a unique
+          approach to children.
+        </p>
+        <div className="h6-cards">
+          <div className="h6-card mb-5">
+            <h6>Swim Instructor</h6>
+            <img src="images/pics/image_07.jpg" alt="" className="h6c-img" />
+            <div className="d-flex justify-content-between align-items-center">
+              <h5>
+                Deborah <br /> Fanning
+              </h5>
+              <span className="h6-arr">
+                <BsArrowRight />
+              </span>
+            </div>
+          </div>
+          <div className="h6-card mt-5">
+            <h6>Swim Instructor</h6>
+            <img src="images/pics/image_02.jpg" alt="" className="h6c-img" />
+            <div className="d-flex justify-content-between align-items-center">
+              <h5>
+                Jenay <br /> Pelham
+              </h5>
+              <span className="h6-arr">
+                <BsArrowRight />
+              </span>
+            </div>
+          </div>
+          <div className="h6-card mb-5">
+            <h6>Swim Instructor</h6>
+            <img src="images/pics/image_03.jpg" alt="" className="h6c-img" />
+            <div className="d-flex justify-content-between align-items-center">
+              <h5>
+                Asthon <br /> Waters
+              </h5>
+              <span className="h6-arr">
+                <BsArrowRight />
+              </span>
+            </div>
+          </div>
+          <div className="h6-card mt-5">
+            <h6>Swim Instructor</h6>
+            <img src="images/pics/image_01.jpg" alt="" className="h6c-img" />
+            <div className="d-flex justify-content-between align-items-center">
+              <h5>
+                Peggy <br /> Bourgeois
+              </h5>
+              <span className="h6-arr">
+                <BsArrowRight />
+              </span>
+            </div>
+          </div>
+        </div>
+        <div className="h6-bottom">
+          <button className="btn btn-outline-reverse">Meet the team</button>
+        </div>
+      </div>
+      <div className="home-7th contact-4th">
+        <h6 className="c4-1st">LATES NEWS</h6>
+        <h2 className="c4-head">From the Blog</h2>
+        <p className="c4-desc">
+          The latest news about what is happening in our pool. <br />
+          Advice for parents and our swimmers.
+        </p>
+        <div className="c4-cards">
+          <div className="c4-card">
+            <div className="c4-top">
+              <div className="price">
+                <h5>20 Aug</h5>
+                <p>
+                  <small>2021</small>
+                </p>
+              </div>
+              <div className="c4c-img">
+                <img src="images/pics/image_21.jpg" alt="" />
+              </div>
+              <span className="h7-pin">
+                <BsFillPinAngleFill />
+              </span>
+            </div>
+            <div className="c4c-body">
+              <p className="c4cb-1st">
+                <FaFolder /> <span>Family · General</span>
+              </p>
+              <h4>Discover Benefits of Swimming Lessons for Kids</h4>
+              <p>
+                Swimming lessons are still one of the most popular
+                extracurricular activities that children enjoy. Parents [...]
+              </p>
+              <div className="d-flex justify-content-between">
+                <div className="c4cb-foot">
+                  <MdModeComment style={{ transform: "scaleX(-1)" }} />
+                  <span>3 comment(s)</span>
+                </div>
+                <div className="c4cb-foot">
+                  <span>Read more</span>
+                  <BsArrowRight />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="c4-card">
+            <div className="c4-top">
+              <div className="price">
+                <h5>17 Aug</h5>
+                <p>
+                  <small>2021</small>
+                </p>
+              </div>
+              <div className="c4c-img">
+                <img src="images/pics/image_22.jpg" alt="" />
+              </div>
+            </div>
+            <div className="c4c-body">
+              <p className="c4cb-1st">
+                <FaFolder /> <span>Courses · Lifestyle</span>
+              </p>
+              <h4>How Swimming Lessons Help Kids With Stress & Anxiety</h4>
+              <p>
+                Nowadays, children face so many problems both at school and at
+                home. Swimming can serve [...]
+              </p>
+              <div className="d-flex justify-content-between">
+                <div className="c4cb-foot">
+                  <MdModeComment style={{ transform: "scaleX(-1)" }} />
+                  <span>10 comment(s)</span>
+                </div>
+                <div className="c4cb-foot">
+                  <span>Read more</span>
+                  <BsArrowRight />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="c4-card">
+            <div className="c4-top">
+              <div className="price">
+                <h5>25 Jun</h5>
+                <p>
+                  <small>2021</small>
+                </p>
+              </div>
+              <div className="c4c-img">
+                <img src="images/pics/image_20.jpg" alt="" />
+              </div>
+            </div>
+            <div className="c4c-body">
+              <p className="c4cb-1st">
+                <FaFolder /> <span>General · News</span>
+              </p>
+              <h4>How to Motivate Yourself to Swim?</h4>
+              <p>
+                Physical activity is an important part of a healthy lifestyle.
+                More and more people realize [...]
+              </p>
+              <div className="d-flex justify-content-between">
+                <div className="c4cb-foot">
+                  <MdModeComment style={{ transform: "scaleX(-1)" }} />
+                  <span>2 comment(s)</span>
+                </div>
+                <div className="c4cb-foot">
+                  <span>Read more</span>
+                  <BsArrowRight />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p className="c4-last">
+          See more posts. Go to the <span>blog</span>
+        </p>
       </div>
       <div className="swim-footer">
         <div className="footer-top">
