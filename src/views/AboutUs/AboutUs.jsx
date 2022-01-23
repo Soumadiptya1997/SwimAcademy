@@ -19,7 +19,7 @@ function AboutUs() {
         className="swim-about-head"
         style={{ backgroundImage: "url('images/bg/heading_08.jpg')" }}
       >
-        <nav className="swim-nav navbar navbar-expand-lg">
+        <nav className="swim-nav navbar navbar-dark navbar-expand-lg">
           <div className="container-fluid">
             <img src="images/logo/logo-alt.png" alt="" className="swim-logo" />
             <button
@@ -59,7 +59,7 @@ function AboutUs() {
                   </Link>
                 </li>
               </ul>
-              <div className="d-flex">
+              <div className="d-flex nav-margin">
                 <FiSearch className="swim-search" />
                 <button className="btn btn-outline-success" type="submit">
                   Sign Up

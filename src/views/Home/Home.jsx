@@ -12,7 +12,7 @@ import { RiCheckboxCircleFill } from "react-icons/ri";
 import { BsArrowLeft, BsArrowRight } from "react-icons/bs";
 import { FaQuoteLeft } from "react-icons/fa";
 import { MdModeComment } from "react-icons/md";
-import { BsFillPinAngleFill } from "react-icons/bs";
+import { AiFillPushpin } from "react-icons/ai";
 import { FiSmartphone } from "react-icons/fi";
 import { GoLocation } from "react-icons/go";
 import { BiTime } from "react-icons/bi";
@@ -25,8 +25,8 @@ import Explore from "../../components/ourServices/explore/Explore";
 
 function Contact() {
   return (
-    <div>
-      <nav className="home-swim-nav navbar navbar-expand-lg">
+    <div className="home-page">
+      <nav className="home-swim-nav navbar navbar-dark navbar-expand-lg">
         <div className="container-fluid">
           <img src="images/logo/logo.png" alt="" className="swim-logo" />
           <button
@@ -254,7 +254,8 @@ function Contact() {
           <div className="s4-left h3-content">
             <h6 className="s3-sub">JOIN TODAY</h6>
             <h2 className="s3-head">
-              Swim Academy School Invites You to Classes
+              Swim Academy School <br />
+              Invites You to Classes
             </h2>
             <p>
               We are an open and friendly swimming school. Each of our little
@@ -263,7 +264,7 @@ function Contact() {
               to know them well. We teach swimming, but also try to pass on
               moral principles and values.
             </p>
-            <div className="d-flex">
+            <div className="h3-flex">
               <div className="mr-5">
                 <h6>
                   <RiCheckboxCircleFill className="s3-tick" />
@@ -345,7 +346,7 @@ function Contact() {
               </p>
             </div>
           </div>
-          <div className="s5-card ml-5">
+          <div className="s5-card h4l-card">
             <img src="images/icons/icon-16.png" alt="" />
             <h5>Personal Development</h5>
             <p>
@@ -554,7 +555,7 @@ function Contact() {
           approach to children.
         </p>
         <div className="h6-cards">
-          <div className="h6-card mb-5">
+          <div className="h6-card h6-mb-5">
             <h6>Swim Instructor</h6>
             <img src="images/pics/image_07.jpg" alt="" className="h6c-img" />
             <div className="d-flex justify-content-between align-items-center">
@@ -566,7 +567,7 @@ function Contact() {
               </span>
             </div>
           </div>
-          <div className="h6-card mt-5">
+          <div className="h6-card h6-mt-5">
             <h6>Swim Instructor</h6>
             <img src="images/pics/image_02.jpg" alt="" className="h6c-img" />
             <div className="d-flex justify-content-between align-items-center">
@@ -578,7 +579,7 @@ function Contact() {
               </span>
             </div>
           </div>
-          <div className="h6-card mb-5">
+          <div className="h6-card h6-mb-5">
             <h6>Swim Instructor</h6>
             <img src="images/pics/image_03.jpg" alt="" className="h6c-img" />
             <div className="d-flex justify-content-between align-items-center">
@@ -590,7 +591,7 @@ function Contact() {
               </span>
             </div>
           </div>
-          <div className="h6-card mt-5">
+          <div className="h6-card h6-mt-5">
             <h6>Swim Instructor</h6>
             <img src="images/pics/image_01.jpg" alt="" className="h6c-img" />
             <div className="d-flex justify-content-between align-items-center">
@@ -627,7 +628,7 @@ function Contact() {
                 <img src="images/pics/image_21.jpg" alt="" />
               </div>
               <span className="h7-pin">
-                <BsFillPinAngleFill />
+                <AiFillPushpin />
               </span>
             </div>
             <div className="c4c-body">

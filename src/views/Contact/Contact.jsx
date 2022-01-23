@@ -22,7 +22,7 @@ function Contact() {
         className="swim-about-head"
         style={{ backgroundImage: "url('images/bg/heading_06.jpg')" }}
       >
-        <nav className="swim-nav navbar navbar-expand-lg">
+        <nav className="swim-nav navbar navbar-dark navbar-expand-lg">
           <div className="container-fluid">
             <img src="images/logo/logo-alt.png" alt="" className="swim-logo" />
             <button
@@ -62,7 +62,7 @@ function Contact() {
                   </Link>
                 </li>
               </ul>
-              <div className="d-flex">
+              <div className="d-flex nav-margin">
                 <FiSearch className="swim-search" />
                 <button className="btn btn-outline-success" type="submit">
                   Sign Up

@@ -1,25 +1,24 @@
-.swim-about-head {
-  background-size: auto;
-  background-position: center;
-  min-height: 550px;
+.home-swim-nav {
+  padding: 25px 40px;
 }
 
 @media only screen and (max-width: 768px) {
-  .swim-about-head {
-    min-height: 400px;
+  .home-swim-nav {
+    padding: 25px 30px;
   }
-}
-
-.home-swim-nav {
-  padding: 25px 30px;
 }
 
 .swim-logo {
   width: 240px;
 }
 
+.home-page .navbar-toggler {
+  color: #4f2ec9;
+  border-color: #4f2ec9;
+}
+
 .home-swim-nav .nav-link {
-  color: #000;
+  color: #000 !important;
   font-weight: 500;
   margin: 0 10px;
   cursor: pointer;
@@ -59,14 +58,33 @@
   background-color: #f5f7f9;
 }
 
-.h1t-content {
-  width: 610px;
-  margin-top: 10px;
+@media only screen and (max-width: 768px) {
+  .home-1st {
+    padding: 70px 30px;
+  }
 }
 
 .h1-top {
   display: flex;
   justify-content: space-between;
+}
+
+@media only screen and (max-width: 768px) {
+  .h1-top {
+    flex-direction: column;
+  }
+}
+
+.h1t-content {
+  width: 610px;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .h1t-content {
+    width: 100%;
+    margin-bottom: 50px;
+  }
 }
 
 .h1st {
@@ -79,8 +97,21 @@
   margin: 18px 160px 50px 0;
 }
 
+@media only screen and (max-width: 768px) {
+  .h1-2nd {
+    font-size: 160%;
+    margin-right: 0;
+  }
+}
+
 .h1-desc {
   font-weight: 400;
+}
+
+@media only screen and (max-width: 768px) {
+  .h1-desc {
+    font-size: 110%;
+  }
 }
 
 .h1-desc span {
@@ -95,6 +126,12 @@
   border-radius: 999px;
   padding: 13px 40px;
   font-weight: 500;
+}
+
+@media only screen and (max-width: 768px) {
+  .h-btn-outline-reverse {
+    font-size: 90%;
+  }
 }
 
 .h-btn-outline-reverse:hover {
@@ -116,8 +153,20 @@
   justify-content: space-between;
 }
 
+@media only screen and (max-width: 768px) {
+  .h1t-cards {
+    flex-direction: column;
+  }
+}
+
 .h1t-cards .c4-card {
   width: 280px;
+}
+
+@media only screen and (max-width: 768px) {
+  .h1t-cards .c4-card {
+    width: 100%;
+  }
 }
 
 .h1-mid {
@@ -125,10 +174,27 @@
   margin-top: 80px;
 }
 
+@media only screen and (max-width: 768px) {
+  .h1-mid {
+    flex-direction: column;
+  }
+}
+
 .h1m-content {
   display: flex;
   align-items: center;
   margin-right: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+  .h1m-content {
+    margin-right: 0;
+    margin-bottom: 50px;
+  }
+
+  .h1m-content:last-child {
+    margin-bottom: 20px;
+  }
 }
 
 .h1m-icon {
@@ -145,6 +211,12 @@
   font-size: 14px;
 }
 
+@media only screen and (max-width: 768px) {
+  .home-page .about-2nd {
+    padding-top: 0;
+  }
+}
+
 .home-3rd {
   background-color: #f5f7f9;
   position: relative;
@@ -157,16 +229,50 @@
   padding: 100px 40px;
 }
 
+@media only screen and (max-width: 768px) {
+  .h3-bg {
+    width: 100%;
+    padding: 100px 30px;
+  }
+}
+
 .h3-content.s4-left {
   width: 600px;
+}
+
+@media only screen and (max-width: 768px) {
+  .h3-content.s4-left {
+    width: 100%;
+  }
 }
 
 .h3-content .s3-head {
   margin-right: 100px;
 }
 
+@media only screen and (max-width: 768px) {
+  .h3-content .s3-head {
+    font-size: 160%;
+    margin-right: 0;
+  }
+}
+
 .h3-content p {
   margin-bottom: 50px;
+}
+
+.h3-flex {
+  display: flex;
+}
+
+@media only screen and (max-width: 768px) {
+  .h3-flex {
+    flex-direction: column;
+  }
+
+  .h3-flex div:last-child {
+    margin-top: 30px;
+  }
 }
 
 .h3-right {
@@ -177,8 +283,23 @@
   padding: 100px 40px;
 }
 
+@media only screen and (max-width: 768px) {
+  .h3-right {
+    position: static;
+    background-color: #fff;
+    height: auto;
+  }
+}
+
 .h3-right img {
   width: 610px;
+}
+
+@media only screen and (max-width: 768px) {
+  .h3-right img {
+    width: 100%;
+    margin-top: 50px;
+  }
 }
 
 .h3-arrows.c4-arrows {
@@ -193,10 +314,23 @@
   background-color: #f5f7f9;
 }
 
+@media only screen and (max-width: 768px) {
+  .home-4th {
+    flex-direction: column;
+  }
+}
+
 .h4-cards {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .h4-cards {
+    flex-direction: column;
+    margin-top: 3rem;
+  }
 }
 
 .h4-cards .s5-card {
@@ -204,6 +338,16 @@
   padding: 40px 30px;
   border-radius: 4px;
   box-shadow: 0px 25px 15px -20px rgb(135 138 170 / 20%);
+}
+
+.h4l-card {
+  margin-left: 3rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .h4l-card {
+    margin-left: 0;
+  }
 }
 
 .h4-cards .s5-card p {
@@ -217,12 +361,33 @@
   justify-content: space-between;
 }
 
+@media only screen and (max-width: 768px) {
+  .home-5th {
+    flex-direction: column;
+    padding-bottom: 500px;
+  }
+}
+
 .h5-right {
   position: relative;
 }
 
+@media only screen and (max-width: 768px) {
+  .h5-right {
+    margin-top: 50px;
+  }
+}
+
 .h5r-img {
   width: 545px;
+}
+
+@media only screen and (max-width: 768px) {
+  .h5r-img {
+    display: block;
+    width: 90%;
+    margin-left: auto;
+  }
 }
 
 .h5-cards.a4-cards {
@@ -230,6 +395,15 @@
   position: absolute;
   left: -60px;
   bottom: -70px;
+}
+
+@media only screen and (max-width: 768px) {
+  .h5-cards.a4-cards {
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    top: 100px;
+  }
 }
 
 .h5-cards.a4-cards p {
@@ -248,6 +422,12 @@
   bottom: -120px;
 }
 
+@media only screen and (max-width: 768px) {
+  .h5-arrows.c4-arrows {
+    bottom: -390px;
+  }
+}
+
 .home-6th {
   padding: 100px 40px;
 }
@@ -264,6 +444,12 @@
   margin: 0 330px;
 }
 
+@media only screen and (max-width: 768px) {
+  .h6-desc {
+    margin: 0;
+  }
+}
+
 .home-6th .h6-1st,
 .home-6th .h6-head,
 .home-6th .h6-desc {
@@ -276,6 +462,12 @@
   margin-top: 50px;
 }
 
+@media only screen and (max-width: 768px) {
+  .h6-cards {
+    flex-direction: column;
+  }
+}
+
 .h6-card {
   transition: all 300ms ease;
   border-radius: 4px;
@@ -286,6 +478,21 @@
 
 .h6-card:hover {
   transform: translate(0, -10px);
+}
+
+.h6-mb-5 {
+  margin-bottom: 3rem;
+}
+
+.h6-mt-5 {
+  margin-top: 3rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .h6-mt-5 {
+    margin-top: 0;
+    margin-bottom: 3rem;
+  }
 }
 
 .h6c-img {
@@ -317,8 +524,17 @@
   margin: 0 auto;
 }
 
-/* .h7-pin {
-} */
+.h7-pin {
+  position: absolute;
+  right: 30px;
+  bottom: -20px;
+  padding: 4px 12px 10px;
+  background-color: #52e2bb;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 20px;
+  margin-left: 10px;
+}
 
 .home-7th .c4c-body h4 {
   font-weight: 400;
