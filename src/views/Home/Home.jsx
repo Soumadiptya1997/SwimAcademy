@@ -26,7 +26,7 @@ import Explore from "../../components/ourServices/explore/Explore";
 function Contact() {
   return (
     <div className="home-page">
-      <nav className="home-swim-nav navbar navbar-dark navbar-expand-lg">
+      <nav className="home-swim-nav navbar navbar-light navbar-expand-lg">
         <div className="container-fluid">
           <img src="images/logo/logo.png" alt="" className="swim-logo" />
           <button
@@ -66,7 +66,7 @@ function Contact() {
                 </Link>
               </li>
             </ul>
-            <div className="d-flex">
+            <div className="d-flex nav-margin">
               <FiSearch className="swim-search" />
               <button className="btn btn-outline-success" type="submit">
                 Sign Up
